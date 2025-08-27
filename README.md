@@ -7,6 +7,9 @@ Stack: **Streamlit + Google Gemini API + ReportLab**.
 
 ### 📎 Link **Live App**:  🌐 [Open on Streamlit](https://liviu221978-multilingual-flashcards-app-rvw4zy.streamlit.app/)  
 
+<img width="1600" height="740" alt="Screenshot from 2025-08-27 17-57-19 (1)" src="https://github.com/user-attachments/assets/719130d8-d88c-44d7-99db-f9ef514ba971" />
+
+
 ## 🚀 Quick Start
 
 1- Install the requirements:
