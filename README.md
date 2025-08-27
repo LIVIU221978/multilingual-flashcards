@@ -1,26 +1,41 @@
 
-# 📝 Multilingual Flashcard Generator
+## 📝 Multilingual Flashcard Generator
 
-Created a concise study flashcards from any topic, translate them to multiple languages using Google Gemini, and export to PDF and Anki CSV—all.
+This project is a simple learning tool that creates study flashcards from any topic you type in. The flashcards can then be translated into different languages using Google Gemini, and exported either as a PDF file or in a format that can be imported into Anki.
 
-Stack: **Streamlit + Google Gemini API + ReportLab**.  
+Stack: **Streamlit + Google Gemini API + ReportLab**. 
 
-## Quickstart
+### 📎 Link **Live App**:  🌐 [Open on Streamlit](https://liviu221978-multilingual-flashcards-app-rvw4zy.streamlit.app/)  
+
+## 🚀 Quick Start
+
+1- Install the requirements:
 ```bash
 pip install -r requirements.txt
-export GEMINI_API_KEY="YOUR_KEY"      # macOS/Linux
-setx GEMINI_API_KEY "YOUR_KEY"     # Windows PowerShell
+```
+
+2- Set your Gemini API key:
+
+```bash
+export GEMINI_API_KEY="YOUR_KEY"     macOS / Linux
+```
+
+```bash
+setx GEMINI_API_KEY "YOUR_KEY"       Windows PowerShell
+```
+
+3- Run the app:
+```bash
 streamlit run app.py
 ```
 
-## Features
-- Generate concise flashcards from a topic using Gemini (gemini-1.5-flash by default)
-- Translate to multiple languages using Gemini 
-- Download **PDF** (ReportLab) and **Anki CSV** exports
-- Lightweight UI in Streamlit, easy to run locally or deploy on Streamlit Cloud
+## ✨ Features
 
-## How It Works 
-You enter a topic and choose languages. App asks Gemini to create N flashcards in strict JSON. App asks Gemini to translate that JSON into the target languages and you review cards, then download as PDF or Anki CSV
+- Generate short, clear flashcards from any study topic
+- Translate the cards into multiple languages
+- Export flashcards as a PDF document
+- Export flashcards as an Anki-ready CSV file
+- Simple and lightweight user interface built in Streamlit
 
-## Notes
-Right-to-left scripts and complex shaping may require custom fonts; current layout targets Latin scripts and all prompts instruct Gemini to return strict JSON for reliable parsing.
+## 🛠️ How It Works
+You enter a topic and choose languages and app asks Gemini to create flashcards. It asks Gemini to translate the output into the target languages and you review cards, then u can also download it.
