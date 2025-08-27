@@ -15,9 +15,8 @@ streamlit run app.py
 
 ## Features
 - Generate concise flashcards from a topic using Gemini (gemini-1.5-flash by default)
-- Translate to multiple languages using Gemini (same key)
+- Translate to multiple languages using Gemini 
 - Download **PDF** (ReportLab) and **Anki CSV** exports
-- No external paid services
 - Lightweight UI in Streamlit, easy to run locally or deploy on Streamlit Cloud
 
 ## How It Works 
